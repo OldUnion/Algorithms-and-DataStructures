@@ -13,8 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AlgorithmsTests\" />
     <Folder Include="DataStructuresTests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
+    <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
   </ItemGroup>
 
 </Project>
